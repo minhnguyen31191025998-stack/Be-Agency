@@ -1,0 +1,71 @@
+.btn {
+    border-radius: 24px;
+    margin: 0;
+    padding: 12px 40px;
+    font-size: 15px;
+}
+.header .header-container {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .header-logo {
+  width: 200px;
+}
+
+.header .header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.header-nav li a {
+    color: #0c117b;
+}
+/* Start banner */
+.banner {
+    background-image: url("../../Assets/images/banner-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+.banner .banner-container 
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.banner .banner-top h3 {
+font-size: 45px;
+text-align: center;
+color: rgb(73, 137, 253);
+}
+
+.banner .banner-top h3 span {
+    color:#0c117b;
+
+}
+.banner .banner-top p {
+    color: rgb(173, 173, 193);
+    font-size: 14px;
+    margin: 30px 0;
+    text-align: center;
+
+    
+}
+
+.banner-top .btn-service{
+    background-color: rgb(247, 67, 113);
+}
+
+.banner-top .btn-learnmore {
+border: 1px solid rgb(12, 17, 123);
+}
+
+/* End banner */

@@ -1,0 +1,156 @@
+.btn {
+    border-radius: 24px;
+    margin: 0;
+    padding: 12px 32px;
+    font-size: 12px;
+}
+.header .header-container {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  z-index: 1000;
+  margin: 0;
+  height: 80px;
+
+}
+
+.header .header-logo {
+  width: 200px;
+}
+
+.header .header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.mobile-icon {
+    display: none;
+}
+.header-nav li a {
+    color: #0c117b;
+}
+/* Start banner */
+.banner {
+    background-image: url("../../Assets/images/banner-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+.banner .banner-container 
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.banner .banner-top {
+    text-align: center;
+}
+.banner .banner-top h3 {
+font-size: 45px;
+text-align: center;
+color: rgb(73, 137, 253);
+margin: 0;
+}
+
+.banner .banner-top h3 span {
+    color:#0c117b;
+
+}
+.banner .banner-top p {
+    color: rgb(173, 173, 193);
+    font-size: 12px;
+    margin: 30px 0;
+    text-align: center;
+
+    
+}
+
+.banner-top .btn-service{
+    background-color: rgb(247, 67, 113);
+    color: white;
+}
+
+.banner-top .btn-readmore {
+border: 1px solid rgb(12, 17, 123);
+color: rgb(12, 17, 123);
+background-color: rgba(247, 67, 113, 0);
+
+}
+
+.banner-bot {
+    display: flex;
+    justify-content: space-between;
+    padding: 200px 0 12px;
+}
+.banner-bot .bot-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.bot-left img {
+     width: 23px;
+    height: 31px;
+}
+
+.left-text, .bot-right p {
+    font-size: 12px;
+    color: #adadc1;
+}
+
+.left-text p span {
+    font-size: 16px;
+    color:  rgb(73, 137, 253);
+}
+
+.bot-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.bot-right a {
+    display: flex;
+    border-radius: 50%;
+    background-color: rgb(73, 137, 253);
+    color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* End banner */
+/* Start why */
+.partners {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  padding: 0; 
+  margin: 0;
+  list-style: none; /* Loại bỏ dấu chấm mặc định của li */
+}
+
+.partners .client-wrapper {
+    padding: 10px 15px;
+    margin: 10px;
+    background: rgba(0, 0, 0, .01);
+    text-align: center;
+    line-height: 0;
+    height: 75px;
+    line-height: 75px;
+    position: relative;
+}
+
+.logo-container img {
+    width: 100%;
+    height: auto;
+}
+/* End why */

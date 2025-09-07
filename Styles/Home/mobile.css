@@ -1,0 +1,54 @@
+@media only screen and (max-width: 480px) {
+   
+.header .header-container {
+display: flex;
+justify-content: center;
+gap: 12px;
+}
+.header .header-logo {
+    vertical-align: middle;}
+
+.header .header-nav {
+    display: none;
+    justify-content: center;
+}
+.mobile-icon {
+    display: block;
+        text-align: center;
+        position: absolute;
+        top: 28px;
+        right: 10px;
+
+}
+.mobile-icon img {
+    width: 24px;
+    height: 24px;
+}
+.banner .banner-top h3 {
+    font-size: 28px;
+    margin: 0;
+     padding: 12px 0 24px;
+}
+.banner .banner-top p {
+    display: none;
+}
+
+.banner-bot {
+    display: none;
+}
+.banner-top-btn {
+    padding: 12px 0 120px;
+    display: grid;
+    gap: 8px;
+}
+
+.banner-top-btn a {
+    Padding: 12px 24px;
+}
+.partners {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Chia thành 2 cột có kích thước bằng nhau */
+    gap: 12px; /* Giữ khoảng cách giữa các logo */
+    justify-content: center; /* Giữ lại để căn giữa toàn bộ lưới */
+  }
+}
