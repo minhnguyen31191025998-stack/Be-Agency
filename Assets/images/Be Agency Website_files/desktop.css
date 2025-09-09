@@ -165,7 +165,7 @@ background-color: rgba(247, 67, 113, 0);
 .offer-container {
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: 16px;
 }
 .offer-container img {
     width: 440px;
@@ -188,22 +188,6 @@ background-color: rgba(247, 67, 113, 0);
     color: white;
 }
 .offer-container ul{
-    padding: 8px 0;
+    padding: 12px auto;
 }
-
-ul.list_check li {
-    background: url(../../Assets/images/list_check.png) no-repeat 20px 5px;
-    padding-bottom: 8px;
-    padding-top: 8px;
-}
-/* , li.list_check */
-
-ul.list_check li {
-    margin-bottom: 8px;
-    position: relative;
-    list-style: none;
-    padding-left: 52px;
-    /* margin-left: 0; */
-}
-
 /* End offer */
