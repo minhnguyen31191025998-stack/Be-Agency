@@ -13,7 +13,7 @@
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: white; /* Thêm màu nền để nội dung bên dưới không bị nhìn xuyên qua */
+  background-color: rgba(255, 255, 255, 0.95);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Thêm đổ bóng để tạo hiệu ứng nổi */
 }
 .header .header-container {

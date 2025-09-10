@@ -75,4 +75,9 @@ gap: 12px;
     justify-content: center;
 
 }
+
+.service h3 {
+    font-size: 28px;
+}
+
 }
