@@ -43,6 +43,23 @@
 .header-nav li a {
     color: #0c117b;
 }
+
+@keyframes updown {
+    0% {
+        transform:translateY(0px) rotate(90deg);
+    }
+     50% {
+        transform:translateY(30px) rotate(90deg);
+    }
+    0% {
+        transform:translateY(0px) rotate(90deg);
+    }
+}
+.scroll-container .scroll {
+    transform: rotate(90deg);
+    width: 100px;
+    animation: updown 2s ease-in-out infinite;
+}
 /* Start banner */
 .banner {
     background-image: url("../../Assets/images/banner-bg.jpg");
@@ -271,3 +288,57 @@ padding-bottom: 32px;
     color: white;
 }
 /* End service */
+
+/* Start facts */
+.fact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.fact-container img {
+    width: 440px;
+}
+
+.fact-right {
+    padding: 24px;
+}
+.fact-right h3 {
+    font-size: 45px;
+    color:#0c117b ;
+}
+.fact-right h3 span {
+    font-size: 45px;
+    color:  #4989fd;
+
+}
+
+.fact-right p {
+    font-size: 14px;
+    color: #ADADC1;
+}
+
+.fact-number {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.fact-number span {
+    font-size: 42px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.fact-1 span {
+    color:#15c68f;
+}
+
+.fact-2 span {
+    color:#EE9C32;
+}
+
+.fact-3 span {
+    color:#0C117B;
+}

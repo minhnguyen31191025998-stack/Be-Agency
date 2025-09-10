@@ -79,5 +79,35 @@ gap: 12px;
 .service h3 {
     font-size: 28px;
 }
+/* Start fact */
+.fact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+img.fact-left {
+width: 100%;
+height: auto;
+}
+.fact-container h3, span {
+    font-size: 28px;
+}
+.fact-right .convince-span {
+    font-size: 28px;
+}
+.fact-number {
+    display:flex;
+    flex-direction: column;
+    gap: 8px;
 
 }
+
+div .fact-1, .fact-2, .fact-3 {
+    display:flex;
+    gap: 12px; 
+}
+/* End facts */
+
+}
+

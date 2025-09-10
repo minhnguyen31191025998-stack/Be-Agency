@@ -54,4 +54,16 @@
 
 }
 /* End service */
+/* Start fact */
+img.fact-left {
+width: 100%;
+height: auto;
+}
+.fact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+/* End facts */
 }
