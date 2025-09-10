@@ -30,4 +30,28 @@
 .banner-top-btn a {
     Padding: 8px 24px;
 }
+
+/* Start offer */
+ .offer-container {
+    display: block;
+    align-items: center;
+}
+.offer-container img {
+    width: 100%;
+}
+
+.offer-left {
+    width: 100%;
+}
+
+/* End offer */
+/* Start Service */
+.service-container {
+    Display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+/* End service */
 }

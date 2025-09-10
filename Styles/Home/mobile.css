@@ -51,4 +51,28 @@ gap: 12px;
     gap: 8px; /* Giữ khoảng cách giữa các logo */
     justify-content: center; /* Giữ lại để căn giữa toàn bộ lưới */
   }
+
+  /* Start why */
+  .offer-container {
+    display: block;
+    align-items: center;
+}
+.offer-container img {
+    width: 100%;
+}
+
+.offer-left {
+    width: 100%;
+}
+.offer-container h3 {
+    font-size: 28px;
+}
+/* Start service */
+.service-container {
+    Display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
 }
