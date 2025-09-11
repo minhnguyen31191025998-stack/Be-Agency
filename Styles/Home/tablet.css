@@ -66,4 +66,7 @@ height: auto;
     gap: 24px;
 }
 /* End facts */
+.scroll-container {
+    display: none;
+}
 }

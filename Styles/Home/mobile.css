@@ -109,5 +109,8 @@ div .fact-1, .fact-2, .fact-3 {
 }
 /* End facts */
 
+.scroll-container {
+    display: none;
 }
 
+}

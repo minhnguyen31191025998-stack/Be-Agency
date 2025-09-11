@@ -1,9 +1,4 @@
-.btn {
-    border-radius: 24px;
-    margin: 0;
-    padding: 12px 32px;
-    font-size: 12px;
-}
+
 .container {
     margin: 0 auto;
     width: 90%;
@@ -59,6 +54,13 @@
     transform: rotate(90deg);
     width: 100px;
     animation: updown 2s ease-in-out infinite;
+    color:rgb(73, 137, 253);
+    font-weight: 400;
+}
+.scroll-container {
+    position: absolute; /* Đặt vị trí tuyệt đối */
+    right: 24px;       /* Đặt cách lề phải 20px (hoặc giá trị bạn muốn) */
+    bottom: 360px;      /* Đặt cách lề dưới 20px (hoặc giá trị bạn muốn) */
 }
 /* Start banner */
 .banner {
@@ -341,4 +343,77 @@ padding-bottom: 32px;
 
 .fact-3 span {
     color:#0C117B;
+}
+
+/* Start email */
+.email-container {
+    background: url(../../Assets/images/agency4-home-newsletter-bg.jpg) no-repeat 20px 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 64px;
+    text-align: center;
+}
+
+.email-container p {
+    padding: 32px 0;
+}
+
+.email-container input {
+    padding: 8px 16px;
+    border: none;
+    border-bottom: 1px solid #adadc1;
+}
+
+.email-container input::-moz-focus-inner {
+    padding: 8px 16px;
+    border: none;
+    border-bottom: 1px solid #adadc1;
+    background:#adadc1;
+}
+
+.email-container button {
+    border: none;
+}
+.email-container input:focus::placeholder {
+    color: #adadc1;
+}
+
+/* Style the input field on focus */
+.email-container input:focus {
+    background-color: #e6f7ff; /* A light, soft blue color */
+    border-bottom: 1px solid rgb(73, 137, 253);
+    outline: none; /* Removes the default blue/black outline */
+}
+/* End email */
+
+/* Start footer */
+.footer {
+    background-color: #fafbfc;
+}
+.footer-top  {
+    display:flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 64px;
+}
+.footer-column img {
+    height: 50px;
+    width: 207px;
+}
+.footer-top .footer-column  {
+    display:flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-column h6 {
+    color:#0C117B;
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-column a {
+    color:#adadc1;
+    font-size: 12px;
 }

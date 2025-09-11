@@ -1,0 +1,23 @@
+h3 {   
+font-size: 45px;
+color: rgb(73, 137, 253);
+margin: 0;
+}
+
+h3 span {   
+ color:#0c117b;
+}
+
+.btn {
+    background-color: rgb(247, 67, 113);
+    color: white;
+    border-radius: 24px;
+    margin: 0;
+    padding: 12px 32px;
+    font-size: 12px;
+}
+
+p {
+    color: rgb(173, 173, 193);
+    font-size: 12px;
+}
