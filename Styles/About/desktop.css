@@ -1,0 +1,53 @@
+/* Header */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Thêm đổ bóng để tạo hiệu ứng nổi */
+}
+.header .header-container {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  height: 80px;
+
+}
+
+.header .header-logo {
+  width: 200px;
+}
+
+.header .header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.mobile-icon {
+    display: none;
+}
+.header-nav li a {
+    color: #0c117b;
+    font-size: 16px;
+}
+
+/* End header */
+/* Start banner */
+.banner {
+    background-image: url("/Assets/images/about-us-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.banner-container {
+    padding: 0 60px;
+}
+
+/* End banner */

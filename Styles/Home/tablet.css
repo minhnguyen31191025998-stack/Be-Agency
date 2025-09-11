@@ -69,4 +69,15 @@ height: auto;
 .scroll-container {
     display: none;
 }
+
+/* Start footer */
+  .footer-top {
+    flex-direction: column; /* Stack columns vertically */
+    padding: 32px; /* Reduce padding for mobile */
+    gap: 32px; /* Add space between stacked columns */
+  }
+
+  .footer-column {
+    text-align: center; /* Center the content within each column */
+  }
 }

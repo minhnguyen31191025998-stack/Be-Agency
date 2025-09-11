@@ -13,7 +13,7 @@ gap: 12px;
     justify-content: center;
 }
 .mobile-icon {
-    display: block;
+     display: block;
         text-align: center;
         position: absolute;
         top: 28px;
@@ -113,4 +113,20 @@ div .fact-1, .fact-2, .fact-3 {
     display: none;
 }
 
+/* Start email */
+.email-container {
+    background-size: cover;
+    padding: 32px; /* Reduce padding for mobile */
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .email-container p {
+    padding: 16px 0; /* Reduce padding for mobile */
+  }
+  .email-input {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
 }

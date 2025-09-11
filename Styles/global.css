@@ -1,5 +1,11 @@
+.container {
+    margin: 0 auto;
+    width: 90%;
+    padding: 24px 0;
+}
+
 h3 {   
-font-size: 45px;
+font-size: 58px;
 color: rgb(73, 137, 253);
 margin: 0;
 }
@@ -19,5 +25,12 @@ h3 span {
 
 p {
     color: rgb(173, 173, 193);
-    font-size: 12px;
+    font-size: 16px;
 }
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    padding: 24px 0;
+}
+
