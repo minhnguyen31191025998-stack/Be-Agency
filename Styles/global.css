@@ -21,6 +21,7 @@ h3 span {
     margin: 0;
     padding: 12px 32px;
     font-size: 12px;
+    border: none;
 }
 
 p {

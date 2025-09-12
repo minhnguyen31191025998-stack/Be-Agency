@@ -33,6 +33,7 @@
 }
 .header-nav li a {
     color: #0c117b;
+    font-size: 16px;
 }
 
 @keyframes updown {

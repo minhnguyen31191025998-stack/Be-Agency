@@ -51,3 +51,185 @@
 }
 
 /* End banner */
+
+/* Start why */
+.why-description {
+  display: flex;
+  justify-content: space-between;
+}
+.why-container h3 {
+  text-align: center;
+}
+.why-container {
+  text-align: center;
+}
+.why-container img {
+  width: 100%;
+}
+.why-description p {
+ padding: 40px;
+ text-align: left;
+}
+
+ul.list_check li {
+    background: url(/Assets/images/list_check.png) no-repeat 20px 5px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+/* , li.list_check */
+
+ul.list_check li {
+    margin-bottom: 8px;
+    position: relative;
+    list-style: none;
+    padding-left: 52px;
+    text-align: left;
+    /* margin-left: 0; */
+}
+
+.list-check-container {
+  display: flex;
+  justify-content: space-between;
+}
+/* End why */
+
+/* Start team */
+.team-container {
+  display: flex;
+  gap: 32px;
+    justify-content: space-between;
+    align-items: center;
+}
+.team-container img {
+  width: 440px;
+}
+
+.four-icons {
+  display: flex;
+  gap: 32px;
+}
+
+button.btn {
+  background-color: #F84B43;
+}
+/* End team */
+/* Start number */
+/* Start facts */
+.fact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.fact-container img {
+    width: 440px;
+}
+
+.fact-right {
+    padding: 24px;
+}
+
+
+.fact-right p {
+    font-size: 14px;
+    color: #ADADC1;
+}
+
+.fact-number {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.fact-number span {
+    font-size: 42px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.fact-1 span {
+    color:#15c68f;
+}
+
+.fact-2 span {
+    color:#EE9C32;
+}
+
+.fact-3 span {
+    color:#0C117B;
+}
+
+/* End number */
+
+/* Start email */
+.email-container {
+    background: url(../../Assets/images/agency4-home-newsletter-bg.jpg) no-repeat 20px 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 64px;
+    text-align: center;
+}
+
+.email-container p {
+    padding: 32px 0;
+}
+
+.email-container input {
+    padding: 8px 16px;
+    border: none;
+    border-bottom: 1px solid #adadc1;
+}
+
+.email-container input::-moz-focus-inner {
+    padding: 8px 16px;
+    border: none;
+    border-bottom: 1px solid #adadc1;
+    background:#adadc1;
+}
+
+.email-container button {
+    border: none;
+}
+.email-container input:focus::placeholder {
+    color: #adadc1;
+}
+
+/* Style the input field on focus */
+.email-container input:focus {
+    background-color: #e6f7ff; /* A light, soft blue color */
+    border-bottom: 1px solid rgb(73, 137, 253);
+    outline: none; /* Removes the default blue/black outline */
+}
+/* End email */
+/* Start footer */
+.footer {
+    background-color: #fafbfc;
+}
+.footer-top  {
+    display:flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 64px;
+}
+.footer-column img {
+    height: 50px;
+    width: 207px;
+}
+.footer-top .footer-column  {
+    display:flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-column h6 {
+    color:#0C117B;
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-column a {
+    color:#adadc1;
+    font-size: 12px;
+}
