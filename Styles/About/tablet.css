@@ -1,0 +1,80 @@
+@media only screen and (max-width: 760px) {
+ /* Style for all h3 elements within a section */
+section h3 {
+    font-size: 28px;
+    text-align: center;
+}
+
+section h3 span {
+    font-size: 28px;
+}
+    /* Header */
+
+.header .header-container {
+display: flex;
+justify-content: center;
+gap: 12px;
+}
+.header .header-logo {
+    vertical-align: middle;}
+
+.header .header-nav {
+    display: none;
+    justify-content: center;
+}
+.mobile-icon {
+     display: block;
+        text-align: center;
+        position: absolute;
+        top: 28px;
+        right: 10px;
+
+}
+.mobile-icon img {
+    width: 24px;
+    height: 24px;
+}
+/* End header */
+
+/* Start why */
+.why-description {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: space-between;
+}
+.why-description p {
+    padding: 12px;
+}
+ul.list_check li {
+    padding: 0 0  0 44px;
+}
+
+ul.list_check {
+    padding-bottom: 0px;}
+
+
+
+.list-check-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    
+}
+
+/* Start team */
+.team-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+/* End team */
+/* Start fact */
+.fact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+/* End fact */
+
+}

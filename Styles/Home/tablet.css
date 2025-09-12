@@ -1,5 +1,9 @@
 @media only screen and (max-width: 760px) {
 
+    h3 {
+        font-size: 28px;
+    }
+
 .header .header-nav {
     display: none;
 }
@@ -80,4 +84,16 @@ height: auto;
   .footer-column {
     text-align: center; /* Center the content within each column */
   }
+
+  .email-container h3, span {
+        font-size: 28px;
+}
+
+#email-h3 {
+    font-size: 28px;
+}
+
+#address {
+    font-size: 12px;
+}
 }

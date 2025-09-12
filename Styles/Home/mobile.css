@@ -129,4 +129,15 @@ div .fact-1, .fact-2, .fact-3 {
     flex-direction: column;
     gap: 8px;
   }
+.email-container h3, span {
+        font-size: 28px;
+}
+
+#email-h3 {
+    font-size: 28px;
+}
+#address {
+    font-size: 12px;
+}
+
 }
